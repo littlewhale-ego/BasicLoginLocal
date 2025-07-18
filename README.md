@@ -1,9 +1,11 @@
 #Basic Login in Local
--HTML
+- HTML
   - dashboard.html
   - login.html
   - signup.html
-
--CSS
+- CSS
  -login.css
+- Js
+  - login.js
+  - signup.js
  

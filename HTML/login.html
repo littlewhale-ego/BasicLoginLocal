@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System</title>
+    <link rel="stylesheet" href="/CSS/login.css">
+</head>
+<body>
+    <h1>Login System</h1>
+    <form id="loginForm" action="dashboard.html" method="POST">
+        <input id="username" type="text" name="username" placeholder="name@example.com" required>
+        <input id="password" type="password" name="password" placeholder="12345678" min="8" max="120" required>
+        <button type="submit">Login</button>
+        <button class="signup_btn"><a href="signup.html" target="_blank">Sign Up</a></button> 
+    </form>
+
+    <script src="/JS/login.js"></script>
+</body>
+</html>
